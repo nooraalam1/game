@@ -171,10 +171,12 @@
 .main2-pic img {
   width: 16rem;
   height: 20rem;
+  border: 5px solid black;
+  border-radius: 20px;
 }
+
 .main2-pic {
   display: flex;
-
   justify-content: center;
   align-items: center;
   gap: 1em;
@@ -189,8 +191,13 @@
   font-weight: 500;
   color: #534c64;
 }
+
 .main2-pic img:hover {
   cursor: pointer;
+  border: 5px solid red;
+  border-radius: 20px;
+  opacity: 0.4;
+  box-shadow: 10px 10px 10px red;
 }
 .main3 {
   margin-top: 5em;
