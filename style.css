@@ -238,6 +238,9 @@
   justify-content: space-evenly;
   align-items: center;
 }
+.m4t2-btn:hover {
+  cursor: pointer;
+}
 .m4t2-btn {
   background-color: white;
   color: #f948b2;
